@@ -11,5 +11,5 @@ public class WlcmVisitors {
 		System.out.println(" I am a Btech(Computer Science & Artifical Intelligence) Student| AKTU'28 currently on a mission");
 		System.out.println(" Accessed on: " + today);
 		System.out.println("\nStatus: Learning Java & Building Logic... ");
-
 	}
+}
