@@ -11,6 +11,6 @@ public class InputStrings {
         /*string can be created in two ways
         String name= "Anshika";
         String username= new String("Anshika");
-        */ 
+        */
     }
 }
