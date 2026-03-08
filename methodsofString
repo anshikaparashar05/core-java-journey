@@ -25,7 +25,7 @@ public class StringMethodsDemo {
         String replaced = text.replace("Java", "World");
         System.out.println("Replaced: " + replaced.trim());
 
-        //  Substrings Extracts from index 9 to the end
+        // Substrings Extracts from index 9 to the end
         System.out.println("Substring (9): " + text.substring(9)); 
   
     }
