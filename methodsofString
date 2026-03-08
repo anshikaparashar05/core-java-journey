@@ -1,0 +1,32 @@
+public class StringMethodsDemo {
+    public static void main(String[] args) {
+        String text = "  Hello, Java Enthusiast!  ";
+
+        // Length and Character Access
+        System.out.println("Length: " + text.length()); // Includes spaces
+        System.out.println("Char at index 7: " + text.charAt(7)); // 'e'
+
+        // Formatting and Case
+        System.out.println("Uppercase: " + text.toUpperCase());
+        System.out.println("Lowercase: " + text.toLowerCase());
+        System.out.println("Trimmed: '" + text.trim() + "'"); // Removes trailing whitespace
+
+        // Comparison
+        String greeting = "Hello";
+        System.out.println("Equals 'hello': " + greeting.equals("hello")); // false
+        System.out.println("Equals ignore case: " + greeting.equalsIgnoreCase("hello")); // true
+
+        // Searching and Checking
+        System.out.println("Contains 'Java': " + text.contains("Java")); // true
+        System.out.println("Starts with '  He': " + text.startsWith("  He")); // true
+        System.out.println("Index of 'Enthusiast': " + text.indexOf("Enthusiast"));
+
+        // Modification (Returns a NEW string)
+        String replaced = text.replace("Java", "World");
+        System.out.println("Replaced: " + replaced.trim());
+
+        //  Substrings Extracts from index 9 to the end
+        System.out.println("Substring (9): " + text.substring(9)); 
+  
+    }
+}
