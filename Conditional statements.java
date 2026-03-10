@@ -1,5 +1,4 @@
-//if else code
-
+//if else code 
 public class IfElseExample {
     public static void main(String[] args) {
         int number = 5;
