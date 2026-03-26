@@ -1,3 +1,1 @@
-
-# multiplication table of a number n
-  
+#practice questions'
