@@ -10,7 +10,7 @@ public class InputStrings {
         myObj.close();
         /*string can be created in two ways
         String name= "Anshika";
-        String username= new String("Anshika");
+        String username= new String("Anshika"); //as a class using new keyword
         */
     }
 }
